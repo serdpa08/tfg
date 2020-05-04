@@ -1,0 +1,9 @@
+ixortalk:
+  iot:
+    client:
+      aws:
+        endpoint: a27r78fgbej3bq-ats.iot.us-east-2.amazonaws.com
+        client-id: ixortalk-iot-client-${random.int}
+        default-topic: sdk/test/java
+        certificate-file: /Users/sergiodepablos/IdeaProjects/demo/src/main/resources/9acab05565-certificate.pem.crt
+        private-key-file: /Users/sergiodepablos/IdeaProjects/demo/src/main/resources/9acab05565-private.pem.crt
